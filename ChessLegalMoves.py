@@ -150,16 +150,3 @@ class Pawn(Piece):
         return super(Pawn, self).moveFilter(possible_moves, self.position)
 
 
-
-#Example
-knight = Knight("d4")
-moves = knight.legalMoves
-decoded = knight.get_decoded_moves(moves)
-print(moves)
-print(decoded)
-
-knight.set_position("g4")
-moves = knight.legalMoves
-decoded = knight.get_decoded_moves(moves)
-print(moves)
-print(decoded)
