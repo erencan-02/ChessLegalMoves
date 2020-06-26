@@ -21,8 +21,8 @@ knight = Knight("d4")
 #You don't have to call the function itself; the moves are stored in legalMoves
 moves = knight.legalMoves
 
-#decoded: readable positions "e4"
-#encoded: Numeric positions (4,4)
+#decoded: Numeric positions (4,4)
+#encoded: Readable positions "e4"
 decoded = knight.get_decoded_moves(moves)
 
 #Change the position of the piece
@@ -30,7 +30,7 @@ knight.set_position("g4")
 ```
 
 ## Note
-If you implement a chess board you can determine if a square is occupied or not.
+It could be that I mixed up the terms encoded and decoded.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
