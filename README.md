@@ -16,7 +16,7 @@ git clone https://github.com/erencan-02/ChessLegalMoves.git
 import LegalMoves
 
 #New knight object
-knight = Knight("d4") 
+knight = LegalMoves.Knight("d4") 
 
 #You don't have to call the function itself; the moves are stored in legalMoves
 moves = knight.legalMoves
