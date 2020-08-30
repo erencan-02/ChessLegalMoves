@@ -29,8 +29,6 @@ decoded = knight.get_decoded_moves(moves)
 knight.set_position("g4")
 ```
 
-## Note
-It could be that I mixed up the terms encoded and decoded.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
